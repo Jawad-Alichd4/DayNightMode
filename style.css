@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 0px;
+    margin: 0px;
+    
+}
+#btn{
+     height:30px ;
+    border-radius: 10px;
+    width: 50px;   
+}
+
+
+.darkmode {
+    color: rgb(26, 26, 24);
+    background-color: rgb(15, 15, 15);
+
+}
+
+.daymode{
+    color: rgb(241, 238, 238);
+    background-color: white;
+    
+   
+} 
