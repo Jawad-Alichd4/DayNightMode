@@ -8,12 +8,14 @@ btn1.style.color="black";
 function changemode(){
 if (btn1.className === "darkmode") {
     btn1.className = "daymode"; 
+    btn1.style.color = "white";
     btn1.style.backgroundColor = "black"
     btn1.innerHTML = "day";
     bd.style.backgroundColor="white";
 }
 else if (btn1.className === "daymode" ) {
     btn1.className = "darkmode";
+    btn1.style.color = "black";
     btn1.style.backgroundColor="white"
 
     btn1.innerHTML = "night";
